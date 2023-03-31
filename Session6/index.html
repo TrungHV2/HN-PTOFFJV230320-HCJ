@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{box-sizing: border-box;}
+        .content {
+            border: 1px solid red;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        .col {
+            width: 33.333333%;
+            float: left;
+            /* margin-right: 1px; */
+            padding: 0 15px;
+        }
+        .col-25 {
+            width: 25%;
+            padding: 0 15px;
+            float: left;
+        }
+        .row::after {
+            content: '';
+            display: block;
+            clear: both;
+        }
+    </style>
+</head>
+<body>
+    <div class="wrap">
+        <div class="row">
+            <div class="col">
+                <div class="content">
+                    <h1>Content</h1>
+                </div>
+            </div>
+            <div class="col">
+                <div class="content">
+                    <h1>Content</h1>
+                </div>
+            </div>
+            <div class="col">
+                <div class="content">
+                    <h1>Content</h1>
+                </div>
+            </div>
+            <div class="col">
+                <div class="content">
+                    <h1>Content</h1>
+                </div>
+            </div>
+            <div class="col">
+                <div class="content">
+                    <h1>Content</h1>
+                </div>
+            </div>
+            <div class="col">
+                <div class="content">
+                    <h1>Content</h1>
+                </div>
+            </div>
+            <div class="col">
+                <div class="content">
+                    <h1>Content</h1>
+                </div>
+            </div>
+            <div class="col">
+                <div class="content">
+                    <h1>Content</h1>
+                </div>
+            </div>
+            <div class="col">
+                <div class="content">
+                    <h1>Content</h1>
+                </div>
+            </div>
+            <!-- <div style="clear: both;"></div> -->
+        </div>
+        <div class="row">
+            <div class="col-25">
+                <div class="content">
+                    <h1>Content</h1>
+                </div>
+            </div>
+            <div class="col-25">
+                <div class="content">
+                    <h1>Content</h1>
+                </div>
+            </div>
+            <div class="col-25">
+                <div class="content">
+                    <h1>Content</h1>
+                </div>
+            </div>
+            <div class="col-25">
+                <div class="content">
+                    <h1>Content</h1>
+                </div>
+            </div>
+            <div class="col-25">
+                <div class="content">
+                    <h1>Content</h1>
+                </div>
+            </div>
+            <div class="col-25">
+                <div class="content">
+                    <h1>Content</h1>
+                </div>
+            </div>
+            <div class="col-25">
+                <div class="content">
+                    <h1>Content</h1>
+                </div>
+            </div>
+            <div class="col-25">
+                <div class="content">
+                    <h1>Content</h1>
+                </div>
+            </div>
+            <!-- <div class="col">
+                <div class="content">
+                    <h1>Content</h1>
+                </div>
+            </div> -->
+            <!-- <div style="clear: both;"></div> -->
+        </div>
+
+        <div>
+            <h1>Content New</h1>
+        </div>
+    </div>
+</body>
+</html>

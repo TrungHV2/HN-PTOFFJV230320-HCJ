@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .wrap {
+            width: 800px;
+            height: 800px;
+            border: 3px solid #000;
+            position: relative;
+        }
+        [class*='div'] {
+            width: 100px;
+            height: 100px;
+        }
+        .div1{
+            background-color: blue;
+            position: fixed;
+            left: 0;
+            bottom: 0;
+        }
+        .div2{
+            background-color: red;
+            position: relative;
+            top: 50px;
+            left: 50px;
+            z-index: 1;
+        }
+        .div3{
+            background-color: green;
+            position: absolute;
+            top: 0;
+            right: 0;
+        }
+        .div4{
+            background-color: violet;
+            position: sticky;
+            top: 10px;
+        }
+        .div3 {
+            /* position: static; */
+        }
+    </style>
+</head>
+<body>
+    <div class="wrap">
+        <div class="div1"></div>
+        <div class="div2"></div>
+        <div class="div3"></div>
+        <div class="div4"></div>
+    </div>
+    <h1>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facere deleniti dicta odit assumenda. Distinctio adipisci provident sapiente perspiciatis ab. Magnam officia excepturi, sunt quos recusandae aperiam vero laboriosam harum delectus?</h1>
+    <h1>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facere deleniti dicta odit assumenda. Distinctio adipisci provident sapiente perspiciatis ab. Magnam officia excepturi, sunt quos recusandae aperiam vero laboriosam harum delectus?</h1>
+    <h1>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facere deleniti dicta odit assumenda. Distinctio adipisci provident sapiente perspiciatis ab. Magnam officia excepturi, sunt quos recusandae aperiam vero laboriosam harum delectus?</h1>
+    <h1>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facere deleniti dicta odit assumenda. Distinctio adipisci provident sapiente perspiciatis ab. Magnam officia excepturi, sunt quos recusandae aperiam vero laboriosam harum delectus?</h1>
+    <h1>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facere deleniti dicta odit assumenda. Distinctio adipisci provident sapiente perspiciatis ab. Magnam officia excepturi, sunt quos recusandae aperiam vero laboriosam harum delectus?</h1>
+    <h1>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facere deleniti dicta odit assumenda. Distinctio adipisci provident sapiente perspiciatis ab. Magnam officia excepturi, sunt quos recusandae aperiam vero laboriosam harum delectus?</h1>
+</body>
+</html>
